@@ -23,6 +23,26 @@
 		},
 		{
 			"path": "ql"
+		},
+		{
+			"name": "[a2ps-4.15-db source archive]",
+			"uri": "codeql-zip-archive://0-84/home/sri/Desktop/HSS_codeql/vscode-codeql-starter/hss-database/a2ps-4.15-db/src.zip"
+		},
+		{
+			"name": "[gettext-0.22.3-db source archive]",
+			"uri": "codeql-zip-archive://0-89/home/sri/Desktop/HSS_codeql/vscode-codeql-starter/hss-database/gettext-0.22.3-db/src.zip"
+		},
+		{
+			"name": "[autogen-5.18.16-db source archive]",
+			"uri": "codeql-zip-archive://0-90/home/sri/Desktop/HSS_codeql/vscode-codeql-starter/hss-database/autogen-5.18.16-db/src.zip"
+		},
+		{
+			"name": "[libextractor-db source archive]",
+			"uri": "codeql-zip-archive://0-87/home/sri/Desktop/HSS_codeql/vscode-codeql-starter/hss-database/libextractor-db/src.zip"
+		},
+		{
+			"name": "[cflow-db source archive]",
+			"uri": "codeql-zip-archive://0-80/home/sri/Desktop/HSS_codeql/vscode-codeql-starter/hss-database/cflow-db/src.zip"
 		}
 	],
 	"settings": {
