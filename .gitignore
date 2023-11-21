@@ -1,3 +1,4 @@
 # CodeQL compilation caches
 .cache/
 hss-database/
+tests/test.elf
