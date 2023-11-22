@@ -1,7 +1,7 @@
 import cpp
-import semmle.code.cpp.dataflow.TaintTracking
+import semmle.code.cpp.dataflow.new.DataFlow
 
-class DoubleFreeConfig extends TaintTracking::Configuration {
+class DoubleFreeConfig extends DataFlow::Configuration {
   DoubleFreeConfig() { this = "DoubleFreeConfig" }
 
   override predicate isSource(DataFlow::Node source) {

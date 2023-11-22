@@ -25,10 +25,6 @@
 			"path": "ql"
 		},
 		{
-			"name": "[a2ps-4.15-db source archive]",
-			"uri": "codeql-zip-archive://0-84/home/sri/Desktop/HSS_codeql/vscode-codeql-starter/hss-database/a2ps-4.15-db/src.zip"
-		},
-		{
 			"name": "[gettext-0.22.3-db source archive]",
 			"uri": "codeql-zip-archive://0-89/home/sri/Desktop/HSS_codeql/vscode-codeql-starter/hss-database/gettext-0.22.3-db/src.zip"
 		},

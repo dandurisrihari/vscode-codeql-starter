@@ -1,4 +1,6 @@
 # CodeQL compilation caches
 .cache/
 hss-database/
-tests/test.elf
+# ignore all except test.c
+codeql-custom-queries-cpp/tests/
+!codeql-custom-queries-cpp/tests/test.c

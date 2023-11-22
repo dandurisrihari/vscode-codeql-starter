@@ -12,4 +12,5 @@ where
   call.getTarget().getName() = "snprintf" and
   a.getLValue().toString() = call.getArgument(0).toString()
 
-select a, "Possible insecure use of snprintf"
+// select the File name, Line number, and Column Number where the corresponding issues is present
+select a, a.getFile(), a.getLocation().getStartLine(), a.getLocation().getStartColumn()

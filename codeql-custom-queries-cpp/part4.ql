@@ -1,10 +1,10 @@
 import cpp
-import semmle.code.cpp.dataflow.TaintTracking
+import semmle.code.cpp.dataflow.new.DataFlow
 
 /**
  * Taint tracking configuration for tracing data from 'scanf' inputs to 'malloc' arguments.
  */
-class ScanfToMallocTaintConfig extends TaintTracking::Configuration {
+class ScanfToMallocTaintConfig extends DataFlow::Configuration {
   ScanfToMallocTaintConfig() { this = "ScanfToMallocTaintConfig" }
 
   /**
